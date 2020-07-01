@@ -10,7 +10,7 @@ public class PilaObjeto {
 
   public Object pop()
   {
-    if ( !pila.isEmpty() ) {
+    if ( ! pila.isEmpty() ) {
       Object tmp = pila.get(pila.size() - 1);
       pila.remove(pila.size() - 1);
       return tmp;
